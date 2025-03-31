@@ -1,6 +1,10 @@
 body {
     background-color: #121212;
     color: #bdbcbd;
+    font-size: 0.85vw;
+}
+
+.container {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -8,26 +12,34 @@ body {
     padding: 1.5vw 3vw;
     border: 0.3vw solid #c9b7da;
     border-radius: 2vw;
-    font-size: 0.85vw;
     margin-top: -0.1vw;
+    max-height: 75vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-width: 30vw;
 }
 
 .header {
     padding-bottom: 0.5vw;
-    color: #c9b7da;
     display: flex;
-    justify-content: right;
     gap: 3.5vw;
+    justify-content: right;
+    align-items: center;
 }
 
 .header h1 {
     margin-top: 4vw;
+}
+
+h1 {
+    color: #c9b7da;
     font-size: 2vw;
     text-shadow: 3px 3px 0 #4f1883;
+    text-align: right;
 }
 
 .header img {
-    border: 0.1vw solid #c9b7da;
+    border: 0.2vw solid #c9b7da;
     border-radius: 50%;
 }
 
@@ -66,7 +78,35 @@ li::before {
 
 hr {
     border: 0.05vw solid #c9b7da;
-    width: 115%;
+    width: 130%;
     position: relative;
-    right: 7.5%;
+    right: 15%;
+}
+
+.projects li {
+    margin-top: 1vw;
+}
+
+.projects li:nth-child(1) {
+    margin-top: 1.7vw;
+}
+
+.big {
+    font-size: 1.2vw;
+}
+
+.desc {
+    margin-top: 0.4vw;
+}
+
+.flexproj {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+}
+
+.flexproj img {
+    border: 0.2vw solid #c9b7da;
+    border-radius: 1vw;
 }
