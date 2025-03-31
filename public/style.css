@@ -1,0 +1,25 @@
+body {
+    background-color: #121212;
+    color: #c0c0c0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 1.5vw 3vw;
+    border: 0.3vw solid #c0c0c0;
+    border-radius: 2vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    margin-top: 3vw;
+    font-size: 2vw;
+}
+
+.header img {
+    border-radius: 50%;
+}
