@@ -1,7 +1,9 @@
 body {
     background-color: #121212;
     color: #bdbcbd;
-    font-size: 0.85vw;
+    font-size: 1.1vw;
+    font-family: "Iceland", sans-serif;
+    font-weight: bold;
 }
 
 .container {
@@ -33,7 +35,7 @@ body {
 
 h1 {
     color: #c9b7da;
-    font-size: 2vw;
+    font-size: 2.5vw;
     text-shadow: 3px 3px 0 #4f1883;
     text-align: right;
 }
@@ -70,7 +72,7 @@ li::before {
 }
 
 .footerLinks {
-    font-size: 1vw;
+    font-size: 1.4vw;
     display: flex;
     justify-content: space-around;
     margin-bottom: -1vw;
@@ -92,7 +94,7 @@ hr {
 }
 
 .big {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 }
 
 .desc {
