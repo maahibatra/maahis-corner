@@ -43,6 +43,11 @@ h1 {
 .header img {
     border: 0.2vw solid #c9b7da;
     border-radius: 50%;
+    transition: filter 0.3s;
+}
+
+.header img:hover {
+    filter: brightness(80%)
 }
 
 a {
@@ -56,7 +61,6 @@ a:hover {
 }
 
 .emp {
-    font-weight: bold;
     color: #c9b7da;
     text-decoration: #ae7ddd underline;
 }
@@ -125,11 +129,11 @@ button, input {
     position: relative;
     transform: translateX(-50%);
     left: 50%;
-    transition: background-color 0.3s;
+    transition: filter 0.3s, background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0a0a0a;
+    filter: brightness(70%);
 }
 
 input {
@@ -139,10 +143,11 @@ input {
 }
 
 input:hover, input:focus {
-    background-color: #0a0a0a;
+    background-color: #0e0e0e;
 }
 
 #result, #message {
     display: none;
     font-size: 1.3vw;
+    color: #c9b7da;
 }
