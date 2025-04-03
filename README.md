@@ -23,3 +23,5 @@ internet corners are pretty cool. ice cream is too. so i made myself a cozy corn
     - reveal of secret cipher on button click.
     - on three clicks, input box for message is revealed. on clicking enter, the cat reacts with a message.
     - screenshots of my projects beside the description using flex. flex is also used in footer.
+
+of course, i have no clue of the validity of some of these features, and i might've missed some, so i have no clue how many scoops it'll result to!
