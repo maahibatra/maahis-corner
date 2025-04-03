@@ -1,7 +1,7 @@
 body {
     background-color: #121212;
     color: #bdbcbd;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     font-family: "Iceland", sans-serif;
     font-weight: bold;
 }
@@ -15,7 +15,7 @@ body {
     border: 0.3vw solid #c9b7da;
     border-radius: 2vw;
     margin-top: -0.1vw;
-    max-height: 80vh;
+    max-height: 82vh;
     overflow-x: hidden;
     overflow-y: scroll;
     min-width: 30vw;
@@ -24,7 +24,7 @@ body {
 .header {
     padding-bottom: 0.5vw;
     display: flex;
-    gap: 3.5vw;
+    gap: 2.5vw;
     justify-content: right;
     align-items: center;
 }
