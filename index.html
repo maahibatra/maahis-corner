@@ -13,9 +13,11 @@
     <div class="container">
         <div class="header">
             <h1>@ <u>maahi's corner</u></h1>
-            <img src="assets/pfp.png" alt="kitty!" width="200px">
+            <img src="assets/pfp.png" alt="kitty!" width="200px" onclick="tell()">
         </div>
         <hr>
+        <p><input type="text" id="box" placeholder="meow?"></p>
+        <p id="result"></p>
         <p>
             internet corners are pretty cool. ice cream is too. so i made myself a cozy corner on the world wide web for swirl!<br>
             b-but... <span class="emp">who are you?!?!?!</span><br><br>
@@ -42,5 +44,20 @@
             </p>
         </div>
     </div>
+
+    <audio id="meow"></audio>
+
+    <script>
+        let clicks = 0, sounds = ["assets/meow1.mp3", "assets/meow2.mp3", "assets/meow3.mp3"];
+        function tell() {
+            meow.src = sounds[Math.floor(Math.random() * sounds.length)];
+            meow.play()
+            if(++clicks === 3) box.value = "", box.style.display = "block", box.focus();
+        }
+        box.onkeydown = e => {
+            result.style.display = "block";
+            if(e.key === "Enter") result.textContent = box.value.trim().toLowerCase() === "the catnip is in the bag." ? "mraow! thank you, dear messenger!" : "...are you sure that's the message?"
+        }
+    </script>
 </body>
 </html>
